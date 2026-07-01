@@ -41,7 +41,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
-            className="text-4xl sm:text-5xl md:text-6xl font-serif font-black tracking-tight leading-[1.1] mb-6"
+            className="text-3xl sm:text-5xl md:text-6xl font-serif font-black tracking-tight leading-[1.1] mb-6"
           >
             Professional Residential &amp; Commercial Landscaping
           </motion.h1>

@@ -59,7 +59,7 @@ export default function About() {
               whileInView={{ scale: 1, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="absolute -bottom-6 -right-6 hidden sm:flex flex-col items-center justify-center bg-brand-gold text-charcoal font-bold p-6 rounded-2xl shadow-xl border-4 border-white z-10 w-44"
+              className="absolute -bottom-4 -right-2 sm:-bottom-6 sm:-right-6 hidden sm:flex flex-col items-center justify-center bg-brand-gold text-charcoal font-bold p-6 rounded-2xl shadow-xl border-4 border-white z-10 w-44"
             >
               <span className="text-3xl font-black font-serif">100%</span>
               <span className="text-[10px] uppercase tracking-widest text-center mt-1">

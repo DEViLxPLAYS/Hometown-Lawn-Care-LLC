@@ -111,7 +111,7 @@ export default function Services() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.6, delay: index * 0.2, ease: "easeOut" }}
-                className={`flex flex-col justify-between rounded-2xl border border-gray-150 p-8 sm:p-10 shadow-sm hover:shadow-xl transition-all duration-300 ${service.bgPattern} group relative overflow-hidden`}
+                className={`flex flex-col justify-between rounded-2xl border border-gray-150 p-6 sm:p-8 lg:p-10 shadow-sm hover:shadow-xl transition-all duration-300 ${service.bgPattern} group relative overflow-hidden`}
               >
                 {/* Accent Color Strip */}
                 <div className={`absolute top-0 left-0 right-0 h-1.5 ${
